@@ -1,0 +1,135 @@
+{
+  "personMappings": [
+    {
+      "name": "Custom.DateArriveeDateDepart",
+      "mode": "field",
+      "value": "DatedArriveeDatedepart",
+      "validation": {
+        "required": false
+      },
+      "convertToString": false
+    },
+    {
+      "name": "ExternalId",
+      "mode": "field",
+      "value": "ExternalId",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Name.Convention",
+      "mode": "field",
+      "value": "Convention",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Name.FamilyName",
+      "mode": "field",
+      "value": "LastName",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "Name.GivenName",
+      "mode": "field",
+      "value": "FirstName",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Name.NickName",
+      "mode": "field",
+      "value": "FirstName",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "contractMappings": [
+    {
+      "name": "Department.DisplayName",
+      "mode": "field",
+      "value": "DirectionName",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Department.ExternalId",
+      "mode": "field",
+      "value": "DirectionCode",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Division.Code",
+      "mode": "field",
+      "value": "Unitécode",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Division.Name",
+      "mode": "field",
+      "value": "UnitéName",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "EndDate",
+      "mode": "field",
+      "value": "Datededépart",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "ExternalId",
+      "mode": "field",
+      "value": "ID",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Manager.ExternalId",
+      "mode": "field",
+      "value": "ManagerCode",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "StartDate",
+      "mode": "field",
+      "value": "Datededébutdecontrat",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Title.ExternalId",
+      "mode": "field",
+      "value": "EmploiIMMCode",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "Title.Name",
+      "mode": "field",
+      "value": "EmploiIMMName",
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}
