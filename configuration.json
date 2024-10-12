@@ -1,0 +1,35 @@
+[
+  {
+    "key": "WorkingPath",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "exemple : C:\\mon_répertoire",
+      "placeholder": "Saisir ici le Chemin du répertoire qui contient le fichier csv",
+      "description": "Chemin du répertoire qui contient le fichier",
+      "required": true
+    }
+  },
+  {
+    "key": "CsvName",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "exemple : C:\\mon_fichier.csv",
+      "placeholder": "Saisir ici le nom du fichier csv source",
+      "description": "Nom du fichier csv source  ",
+      "required": true
+    }
+  },
+  {
+    "key": "CsvNameHID",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "exemple : C:\\mon_fichier.csv",
+      "placeholder": "Saisir ici le nom du fichier csv pour le traitement HID",
+      "description": "Nom du fichier csv de traitement HID",
+      "required": true
+    }
+  }
+]
